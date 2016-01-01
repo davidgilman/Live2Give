@@ -10,8 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var webView: UIWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        let url = NSURL (string: "davidgilman.co/live2give");
+        let requestObj = NSURLRequest(URL: url!);
+        webView.loadRequest(requestObj);
         // Do any additional setup after loading the view, typically from a nib.
     }
 
