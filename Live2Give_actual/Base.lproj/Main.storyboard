@@ -30,6 +30,7 @@
                             <constraint firstItem="QRS-vQ-bPg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kBy-tl-Bef"/>
                         </constraints>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <connections>
                         <outlet property="webView" destination="QRS-vQ-bPg" id="EPg-bY-N4k"/>
                     </connections>
