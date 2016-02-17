@@ -1,0 +1,2 @@
+credits for webview code go to https://gist.github.com/rduplain/2638913
+- david gilman
